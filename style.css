@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/* https://coolors.co/ff6347-7d83ff-f3dfa2-592941-f5f5dc  */
+
+*{
+    font-family: 'Dela Gothic One';   
+    border: 0;
+}
+
+body{
+    background-color: beige;
+    height: 100vh;
+    text-align: center;
+    margin: 0px;
+    color: #592941;
+
+}
+
+#main{
+    height: 100%;
+    vertical-align: middle; 
+}
+
+#login, #recordarContra{
+    width: 25%;
+    min-width: 350px;
+    aspect-ratio: 1/1;    
+    background-color: tomato;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+.centradoY{
+    display: flex;
+    align-items: center;
+}
+
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-size: 250%;
+
+}
+
+input.login{
+    height: 10%;
+    width: 70%;
+    margin: 5%;
+    border-radius: 6px;
+
+}
+.botonLogin{
+    background-color: #7D83FF;
+    border-radius: 6px;
+    width: 40%;
+    min-width: fit-content; 
+    aspect-ratio: 20/5;
+    margin-top: 5%;
+    font-size: 14px;
+    color: #462133;
+}
+
+.botonLogin:hover{
+    filter: brightness(85%);
+} 
+.botonLogin:active{
+    filter: brightness(80%);
+} 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#contraOlvidada{
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+form{
+    height: 100%;
+}
+.oculto{
+    display: none;
+}
+
